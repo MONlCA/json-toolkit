@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "request_id": "req_9f82ab",
+  "user": {
+    "id": 1042,
+    "profile": {
+      "name": "Monica",
+      "email": "monica@example.com"
+    },
+    "roles": ["admin", "support"]
+  },
+  "services": [
+    {"name": "api", "healthy": true, "latency_ms": 124},
+    {"name": "webhook", "healthy": true, "latency_ms": 238}
+  ]
+}
